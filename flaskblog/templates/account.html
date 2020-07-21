@@ -8,7 +8,6 @@
                 <p class="text-secondary">{{ current_user.email }}</p>
             </div>
         </div>
-        <div class="content-section">
             <form method="POST" action="">
                 {{ form.hidden_tag() }}       
                 <fieldset class="form-group">
@@ -48,6 +47,5 @@
                     {{ form.submit(class="btn btn-outline-info") }}
                 </div>
             </form>
-        </div>
     </div>
 {% endblock %}
